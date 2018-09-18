@@ -5,6 +5,7 @@ int main(void)
     int k=0;
     while (k<5)
     {
+        printf("%d\n",k);
         sum=sum+k; //add k to sum each time
         k++;  //add one to k each time
     }
@@ -15,10 +16,10 @@ int main(void)
 
 
 
-    for (k=9; k>=0; k--)
+    for (k=10; k>0; k--)
     {
 
-        printf ("%8d\n", k);
+        printf ("%2d\n", k);
     }
 
     printf("Blastoff!");
