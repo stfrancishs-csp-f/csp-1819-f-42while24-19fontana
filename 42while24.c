@@ -2,22 +2,25 @@
 int main(void)
 {
     int sum=0;
-    int k;
-    k=0;
+    int k=0;
     while (k<5)
     {
-        sum=sum+k; //use something different in "while" version
-        k++;
+        sum=sum+k; //add k to sum each time
+        k++;  //add one to k each time
     }
 
-    printf ("%d\n",sum);
 
-    k=5;
 
-    for (k=5; k>0; k--) {
+    printf ("Sum - %d\n",sum);
 
-        printf ("%d\n", k);
+
+
+    for (k=9; k>=0; k--)
+    {
+
+        printf ("%8d\n", k);
     }
 
+    printf("Blastoff!");
 }
 
